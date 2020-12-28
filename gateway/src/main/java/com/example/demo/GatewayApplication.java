@@ -13,16 +13,4 @@ public class GatewayApplication {
 		SpringApplication.run(GatewayApplication.class, args);
 	}
 
-//	@Bean
-//	RouteLocator routeLocator(RouteLocatorBuilder builder){
-//		return builder.routes()
-//				.route(r -> r.path("/employee/**")
-//						.uri("http://localhost:8081/")
-//						.id("employeeModule"))
-//
-//				.route(r -> r.path("/consumer/**")
-//						.uri("http://localhost:8082/")
-//						.id("consumerModule"))
-//				.build();
-//	}
 }
